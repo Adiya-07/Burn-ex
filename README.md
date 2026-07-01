@@ -22,17 +22,20 @@ The project detects user exercises using pose estimation and predicts the calori
 - OpenCV
 
 ## Project Structure
-Burn-ex
-  dataset
-     calories_dataset.csv
-  model
-     calorie_model.pkl
-  training
-     generate_dataset.py
-     train_model.py
-     predict.py
-requirements.txt
-README.md
+Burn-ex/
+│── dataset/
+│   └── calories_dataset.csv
+│
+│── model/
+│   └── calorie_model.pkl
+│
+│── training/
+│   ├── generate_dataset.py
+│   ├── train_model.py
+│   └── predict.py
+│
+├── requirements.txt
+└── README.md
 
 ## How to Run
 Install the required packages:
